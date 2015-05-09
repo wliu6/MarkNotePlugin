@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F18A9D21AF60767002A783D /* W66_MarkNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F18A9D11AF60767002A783D /* W66_MarkNoteManager.m */; };
+		0FBFE6F51AF6260F000DF8E0 /* W66_IDEWorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFE6F41AF6260F000DF8E0 /* W66_IDEWorkSpace.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F18A9D01AF60767002A783D /* W66_MarkNoteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = W66_MarkNoteManager.h; sourceTree = "<group>"; };
+		0F18A9D11AF60767002A783D /* W66_MarkNoteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = W66_MarkNoteManager.m; sourceTree = "<group>"; };
+		0F2F72E51AF5FDE300A01ABC /* MarkNotePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkNotePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2F72E91AF5FDE300A01ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBFE6F31AF6260F000DF8E0 /* W66_IDEWorkSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = W66_IDEWorkSpace.h; sourceTree = "<group>"; };
+		0FBFE6F41AF6260F000DF8E0 /* W66_IDEWorkSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = W66_IDEWorkSpace.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F2F72E21AF5FDE300A01ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F18A9CC1AF60716002A783D /* mark_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				0F18A9D01AF60767002A783D /* W66_MarkNoteManager.h */,
+				0F18A9D11AF60767002A783D /* W66_MarkNoteManager.m */,
+				0FBFE6F31AF6260F000DF8E0 /* W66_IDEWorkSpace.h */,
+				0FBFE6F41AF6260F000DF8E0 /* W66_IDEWorkSpace.m */,
+			);
+			path = mark_plugin;
+			sourceTree = "<group>";
+		};
+		0F2F72DC1AF5FDE300A01ABC = {
+			isa = PBXGroup;
+			children = (
+				0F2F72E71AF5FDE300A01ABC /* MarkNotePlugin */,
+				0F2F72E61AF5FDE300A01ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F2F72E61AF5FDE300A01ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F72E51AF5FDE300A01ABC /* MarkNotePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F2F72E71AF5FDE300A01ABC /* MarkNotePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				0F18A9CC1AF60716002A783D /* mark_plugin */,
+				0F2F72E81AF5FDE300A01ABC /* Supporting Files */,
+			);
+			path = MarkNotePlugin;
+			sourceTree = "<group>";
+		};
+		0F2F72E81AF5FDE300A01ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F72E91AF5FDE300A01ABC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F2F72E41AF5FDE300A01ABC /* MarkNotePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2F72EC1AF5FDE300A01ABC /* Build configuration list for PBXNativeTarget "MarkNotePlugin" */;
+			buildPhases = (
+				0F2F72E11AF5FDE300A01ABC /* Sources */,
+				0F2F72E21AF5FDE300A01ABC /* Frameworks */,
+				0F2F72E31AF5FDE300A01ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkNotePlugin;
+			productName = MarkNotePlugin;
+			productReference = 0F2F72E51AF5FDE300A01ABC /* MarkNotePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F2F72DD1AF5FDE300A01ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = W66_;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = w66;
+				TargetAttributes = {
+					0F2F72E41AF5FDE300A01ABC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 0F2F72E01AF5FDE300A01ABC /* Build configuration list for PBXProject "MarkNotePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F2F72DC1AF5FDE300A01ABC;
+			productRefGroup = 0F2F72E61AF5FDE300A01ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2F72E41AF5FDE300A01ABC /* MarkNotePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F2F72E31AF5FDE300A01ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2F72E11AF5FDE300A01ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F18A9D21AF60767002A783D /* W66_MarkNoteManager.m in Sources */,
+				0FBFE6F51AF6260F000DF8E0 /* W66_IDEWorkSpace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F2F72EA1AF5FDE300A01ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		0F2F72EB1AF5FDE300A01ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		0F2F72ED1AF5FDE300A01ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				INFOPLIST_FILE = MarkNotePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0F2F72EE1AF5FDE300A01ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				INFOPLIST_FILE = MarkNotePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2F72E01AF5FDE300A01ABC /* Build configuration list for PBXProject "MarkNotePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F72EA1AF5FDE300A01ABC /* Debug */,
+				0F2F72EB1AF5FDE300A01ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F2F72EC1AF5FDE300A01ABC /* Build configuration list for PBXNativeTarget "MarkNotePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F2F72ED1AF5FDE300A01ABC /* Debug */,
+				0F2F72EE1AF5FDE300A01ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F2F72DD1AF5FDE300A01ABC /* Project object */;
+}
