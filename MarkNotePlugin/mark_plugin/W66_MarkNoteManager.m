@@ -13,11 +13,13 @@ const NSString * markSubfix = @" ";
 
 @implementation W66_MarkNoteManager
 
-+ (void)pluginDidLoad:(NSBundle *)plugin {
++ (void)pluginDidLoad:(NSBundle *)plugin
+{
   [self notePluginShared];
 }
 
-+ (instancetype)notePluginShared {
++ (instancetype)notePluginShared
+{
   static dispatch_once_t once;
   static id instance = nil;
   dispatch_once(&once, ^{
@@ -26,7 +28,8 @@ const NSString * markSubfix = @" ";
   return instance;
 }
 
-- (instancetype)init {
+- (instancetype)init
+{
   if (self = [super init]) {
     [[NSNotificationCenter defaultCenter]
         addObserver:self
@@ -37,11 +40,13 @@ const NSString * markSubfix = @" ";
   return self;
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)noti {
+- (void)applicationDidFinishLaunching:(NSNotification *)noti
+{
   [self addMainMenu];
 }
 
-- (void)addMainMenu {
+- (void)addMainMenu
+{
   NSMenuItem *editMenuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
   if (editMenuItem) {
     [[editMenuItem submenu] addItem:[NSMenuItem separatorItem]];
@@ -106,22 +111,26 @@ const NSString * markSubfix = @" ";
   }
 }
 
-- (void)insertMark {
+- (void)insertMark
+{
   NSString *cmt = [NSString stringWithFormat:@"//%@:", @" MARK"];
   [self insertComment:cmt markerMoveNumeber:0];
 }
 
-- (void)insertSeparator {
+- (void)insertSeparator
+{
   NSString *cmt = @"#pragma mark - ";
   [self insertComment:cmt markerMoveNumeber:0];
 }
 
-- (void)insertMethod {
+- (void)insertMethod
+{
   NSString *cmt = @"#pragma mark -- ";
   [self insertComment:cmt markerMoveNumeber:0];
 }
 
-- (void)insertStarSeparateness{
+- (void)insertStarSeparateness
+{
     NSString *cmt = @"/******************************    ******************************/";
     [self insertComment:cmt markerMoveNumeber: cmt.length / 2 + markSubfix.length];
 }
@@ -131,7 +140,8 @@ const NSString * markSubfix = @" ";
     NSString *cmt = @"/**/";
     [self insertComment:cmt markerMoveNumeber:cmt.length / 2 + markSubfix.length];
 }
-- (void)insertComment:(NSString *)cmt markerMoveNumeber:(NSInteger)markerMN{
+- (void)insertComment:(NSString *)cmt markerMoveNumeber:(NSInteger)markerMN
+{
   
     NSTextView *codeEditTextView = [self codeEditorTextView];
   if (codeEditTextView) {
