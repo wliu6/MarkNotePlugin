@@ -4,7 +4,7 @@
 //
 //  Created by 66 on 15/5/3.
 //  Copyright (c) 2015年 w66. All rights reserved.
-//
+//  
 
 #import "W66_MarkNoteManager.h"
 #import "W66_IDEWorkSpace.h"
@@ -84,25 +84,25 @@ const NSString * markSubfix = @" ";
     [methodMenuItem setTarget:self];
     [[W66note_mainMenuItem submenu] addItem:methodMenuItem];
       
-      // star separateness note
-      NSMenuItem *starMenuItem =
-      [[NSMenuItem alloc] initWithTitle:@"starSeparateness"
+    // star separateness note
+    NSMenuItem *starMenuItem =
+    [[NSMenuItem alloc] initWithTitle:@"starSeparateness"
                                  action:@selector(insertStarSeparateness)
                           keyEquivalent:@"*"];
-      [starMenuItem
+    [starMenuItem
        setKeyEquivalentModifierMask:NSControlKeyMask];
-      [starMenuItem setTarget:self];
-      [[W66note_mainMenuItem submenu] addItem:starMenuItem];
+    [starMenuItem setTarget:self];
+    [[W66note_mainMenuItem submenu] addItem:starMenuItem];
       
-      // star mark
-      NSMenuItem *starMarkMenuItem =
+    // star mark
+    NSMenuItem *starMarkMenuItem =
       [[NSMenuItem alloc] initWithTitle:@"starMark"
                                  action:@selector(insertStarMark)
                           keyEquivalent:@"8"];
-      [starMarkMenuItem
+    [starMarkMenuItem
        setKeyEquivalentModifierMask:NSControlKeyMask];
-      [starMarkMenuItem setTarget:self];
-      [[W66note_mainMenuItem submenu] addItem:starMarkMenuItem];
+    [starMarkMenuItem setTarget:self];
+    [[W66note_mainMenuItem submenu] addItem:starMarkMenuItem];
   }
 }
 
