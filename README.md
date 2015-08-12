@@ -1,7 +1,8 @@
-# **git-MarkNotePlugin**
+# **git-MarkNotePlugin** ###*blog*
 ***
 
 ## Whit's this?
+Through the shortcut key input
 
 ## Install
 clone this repo Build the project and it's done!
