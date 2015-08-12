@@ -1,7 +1,7 @@
 # **MarkNotePlugin** 
 ###*blog:<http://blog.csdn.net/wliu6?viewmode=contents>*
 ***
-* [Classes【MJRefresh类结构图】](#MJRefresh类结构图)
+* [Classes](#MJRefresh类结构图)
 
 ## Whit's this?
 Through the shortcut key input `#pragma mark -`,`#pragma mark --`,`/**/`(The cursor will automatically to /**/ in the middle )...
