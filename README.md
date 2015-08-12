@@ -1,4 +1,4 @@
-# **git-MarkNotePlugin** 
+# **MarkNotePlugin** 
 ###*blog:<http://blog.csdn.net/wliu6?viewmode=contents>*
 ***
 
