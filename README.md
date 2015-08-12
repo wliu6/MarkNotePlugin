@@ -34,12 +34,12 @@ Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd> to input 
 then restart Xcode
 
 ## 使用
-Open any project and use <kbd>ctrl</kbd>+<kbd>-</kbd> to input `#pragma mark -`  
+打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>-</kbd> 插入 `#pragma mark -`  
 
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>-</kbd> to input `#pragma mark --`   
+打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>-</kbd> 插入 `#pragma mark --`   
 
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input `/**/`  
+打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> 插入 `/**/`  
 
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input `/******************************    ******************************/`  
+打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> 插入 `/******************************    ******************************/`  
 
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd> to input `// MARK:`
+打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd> 插入 `// MARK:`
