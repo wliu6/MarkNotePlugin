@@ -1,9 +1,9 @@
 # **git-MarkNotePlugin**
----
+
 ## Whit's this?
----
+
 ## Install
----
+
 clone this repo Build the project and it's done!
 
 or you can download from this link and move the plugin to path
@@ -12,7 +12,7 @@ then restart Xcode
 
 
 ## Usage
----
+
 
 
 
