@@ -13,11 +13,13 @@ or you can download from this link and move the plugin to the path:
 then restart Xcode
 
 ## Usage
-Open any project and use <kbd>ctrl</kbd>+<kbd>-</kbd> to input `#pragma mark -`
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>-</kbd> to input `#pragma mark --`
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input `/**/`
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input   
+Open any project and use <kbd>ctrl</kbd>+<kbd>-</kbd> to input `#pragma mark -`  
 
-`/******************************    ******************************/-`
+Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>-</kbd> to input `#pragma mark --`   
+
+Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input `/**/`  
+
+Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>8</kbd> to input `/******************************    ******************************/`  
+
 Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd> to input `// MARK:`
 
