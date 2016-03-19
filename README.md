@@ -31,7 +31,7 @@ Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd> to input 
 ## 安装
 克隆这个仓库到本地并运行它，或者下载plug-ins移动到该路径  
 `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/`下
-then restart Xcode
+重启Xcode
 
 ## 使用
 打开工程使用快捷键 <kbd>ctrl</kbd>+<kbd>-</kbd> 插入 `#pragma mark -`  
